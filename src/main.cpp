@@ -28,8 +28,8 @@ unsigned long pressStartTime = 0;
 bool waitingForSecondPress = false;
 
 const unsigned long debounceDelay = 50;
-const unsigned long longPressTime = 1000;
-const unsigned long doublePressTime = 300;
+const unsigned long longPressTime = 3000;
+const unsigned long doublePressTime = 500;
 
 int yOffset;
 int xMid;
